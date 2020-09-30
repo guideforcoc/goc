@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>LEGENDARY</title>
+</head>
+<body>
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">CLASH OF CLANS</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a href="master/master.html" class="mr-5 hover:text-gray-900">MASTER</a>
+            <a href="champion/champion.html" class="mr-5 hover:text-gray-900">CHAMPION</a>
+            <a href="titan/titan.html" class="mr-5 hover:text-gray-900">TITAN</a>
+            <a href="legengary/legengary.html"  class="mr-5 hover:text-gray-900">LEGENDARY</a>
+          </nav>
+          <a href="index.html" button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">HOME
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg></a>
+          </button>
+        </div>
+      </header>
+      <section class="text-gray-700 body-font">
+        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="th1" src="data:image/jpeg;base64,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">
+          <div class="text-center lg:w-2/3 w-full">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">LEGENDARY</h1>
+            <p class="mb-8 leading-relaxed">Trophy Range - 5000+</p>
+            <p class="mb-8 leading-relaxed">Demotion If At Or Below - 4900</p>
+            <p class="mb-8 leading-relaxed">Promotion If At Or Above - none</p>
+            <p class="mb-8 leading-relaxed">Maximum League Bonus - 340000(Gold) , 340000(Elixir) , 2400(Dark Elixir)</p>
+            <p class="mb-8 leading-relaxed">Star Bonus - 900000(Gold) , 900000(Elixir) , 4500(Dark Elixir)</p>
+            <div class="flex justify-center">
+          </div>
+        </div>
+      </section>
+</body>
+</html>
